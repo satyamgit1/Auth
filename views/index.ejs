@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Auth</title>
+    <link rel="stylesheet" href="/css/styles.css"> 
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body>
+    <div class="design1 form-box ">
+        <div class="form-box ">
+            <form method="post" action="/create" class="form">
+                <span class="title">Sign up</span>
+                <span class="subtitle">Create a free account with your email.</span>
+                <div class="form-container">
+                    <input type="text" class="input" name="username" placeholder="Username">
+                    <input type="email" name="email" class="input" placeholder="Email">
+                    <input type="password" name="password" class="input" placeholder="Password">
+                    <input type="number" name="age" class="input" placeholder="Age">
+                </div>
+                <button type="submit">Sign up</button>
+            </form>
+            <div class="form-section">
+                <p>Have an account? <a href="/login">Log in</a> </p>
+            </div>
+        </div>
+    </div>
