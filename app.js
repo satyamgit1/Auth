@@ -3,7 +3,7 @@ const app = express();
 const cookieParser = require("cookie-parser");
 const favicon = require("serve-favicon"); 
 const userModel = require("./models/user");
-const bcrypt = require("bcrypt");
+const bcrypt = require('bcryptjs');
 const jwt = require("jsonwebtoken");
 var path = require('path');
 
